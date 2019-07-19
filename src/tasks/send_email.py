@@ -40,4 +40,4 @@ def sendmail(receiver_email, subject, text, sender_email, password):
 
         print('Email sent!')
     except:
-        print('Something went wrong...' + sender_email + password)
+        print('Something went wrong...')
